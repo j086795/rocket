@@ -78,7 +78,7 @@ a:hover {
         padding: 30px;
 }
 
-.button {
+button {
         background-color: red;
         border-bottom: 5px solid #FC3838;
         border-right: 5px solid #FC3838;
