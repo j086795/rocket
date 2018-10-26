@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<title>Fotos</title>
 		<link rel="icon" href="imagens/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="style_3.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<style type="text/css">
 
@@ -37,157 +38,252 @@
 					        	<a href="index.html" class="nav-link">Home</a>
 					        </li>
 					        <li class="nav-item">
-					        	<a class="nav-link" href="historia.html">História</a>
-					        </li>
-					        <li class="nav-item">
-					        	<a class="nav-link" href="titulos.html">Títulos</a>
-					        </li>
-					        <li class="nav-item">
 					        	<a class="nav-link" href="cadastro.html">Cadastro</a>
 					        </li>
-					        <li class="nav-item">
-					        	<a class="nav-link" href="sobre.html">Sobre</a>
-					        </li>
-					    </ul>    
+					    </ul>
+                   <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Buscar">
+                    <button class="btn btn-outline-danger" type="submit">Buscar</button>
+                   </form>     
 			        </div>  
 			</nav>
 			<br><br>
 			<br><br>
-			<div class="jumbotron text-left" style="background-color: gray">
-        <h3 class="display-3">Comum</h3>
-        
-        <!-- 1a row do card-->
-        <div class="row">
-
-          <!-- 1o card -->
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card mb-3">
-              <div class="card-body">
-                <img class="d-block w-30" src="imagens/Backfire.png" alt="First slide">
-                <p class="card-text">Backfire</p>
+      <div class="container">  
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="cabecalhoItem1" style="background-color: white;"> <!-- cabecalho -->
+              <button class="btn btn-link" data-toggle="collapse" data-target="#conteudoItem1">
+                Comuns
+              </button>              
+            </div>
+            <div id="conteudoItem1" class="collapse show" data-parent="#accordion" style="background-color: white">
+              <div class="row">
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Backfire.png" alt="Card image cap">
+                    <p class="card-text">Backfire</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Breakout.png" alt="Card image cap">
+                    <p class="card-text">Breakout</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Gizmo.png" alt="Card image cap">
+                    <p class="card-text">Gizmo</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Hotshot.png" alt="Card image cap">
+                    <p class="card-text">Hotshot</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Merc.png" alt="Card image cap">
+                    <p class="card-text">Merc</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Octane.png" alt="Card image cap">
+                    <p class="card-text">Octane</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Paladin.png" alt="Card image cap">
+                    <p class="card-text">Paladin</p>
+                  </div>
+                </div>
               </div>
             </div>
 
+            <div class="card">
+              <div class="card-header" id="cabecalhoItem2" style="background-color: white;"> <!-- cabecalho -->
+              <button class="btn btn-link" data-toggle="collapse" data-target="#conteudoItem2">
+                Plataformas Exclusivas
+              </button>              
+            </div>
+            <div id="conteudoItem2" class="collapse show" data-parent="#accordion" style="background-color: white">
+              <div class="row">
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Armadillo.png" alt="Card image cap">
+                    <p class="card-text">Armadillo (Xbox one)</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Hogsticker.png" alt="Card image cap">
+                    <p class="card-text">Hogsticker <br>(Xbox one)</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Luigi.png" alt="Card image cap">
+                    <p class="card-text">Luigi NSR <br>(Nintendo Switch)</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Mario.png" alt="Card image cap">
+                    <p class="card-text">Mario NSR <br>(Nintendo Switch)</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Samus.png" alt="Card image cap">
+                    <p class="card-text">Samus' Gunship <br>(Nintendo Switch)</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Body.png" alt="Card image cap">
+                    <p class="card-text">Sweet Tooth (PS4)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header" id="cabecalhoItem3" style="background-color: white;"> <!-- cabecalho -->
+              <button class="btn btn-link" data-toggle="collapse" data-target="#conteudoItem3">
+                Importados
+              </button>              
+            </div>
+            <div id="conteudoItem3" class="collapse show" data-parent="#accordion" style="background-color: white">
+              <div class="row">
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Animus.png" alt="Card image cap">
+                    <p class="card-text">Animus GP</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Breakout_type.png" alt="Card image cap">
+                    <p class="card-text">Breakout Type-S</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Centio_V17.png" alt="Card image cap">
+                    <p class="card-text">Centio V17</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Cyclone.png" alt="Card image cap">
+                    <p class="card-text">Cyclone</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Dominus_GT.png" alt="Card image cap">
+                    <p class="card-text">Dominus GT</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Endo.png" alt="Card image cap">
+                    <p class="card-text">Endo</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Imperator.png" alt="Card image cap">
+                    <p class="card-text">Imperator DT5</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Jager.png" alt="Card image cap">
+                    <p class="card-text">Jäger 619 RS</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Mantis.png" alt="Card image cap">
+                    <p class="card-text">Mantis</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/nimbus.png" alt="Card image cap">
+                    <p class="card-text">Nimbus</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Octane_ZSR.png" alt="Card image cap">
+                    <p class="card-text">Octane ZSR</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Road_Hog_xl.png" alt="Card image cap">
+                    <p class="card-text">Road Hog XL</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Samurai.png" alt="Card image cap">
+                    <p class="card-text">Samurai</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Takumi.png" alt="Card image cap">
+                    <p class="card-text">Takumi RX-T</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Twinzer.png" alt="Card image cap">
+                    <p class="card-text">Twinzer</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/Werewolf.png" alt="Card image cap">
+                    <p class="card-text">Werewolf</p>
+                  </div>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                  <div class="card mb-3">
+                    <img class="card-img-top" src="imagens/X-Devil.png" alt="Card image cap">
+                    <p class="card-text">X-Devil Mk2</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card mb-3">
-              <img class="card-img-top" src="imagens/Backfire.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Backfire</p>
-              </div>
-            </div>
-
-          <!-- 2o card -->
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card bg-danger mb-3">
-              <div class="card-body">
-                <h5 class="card-title">Depoimento 1</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Foi legal</h6>
-                <p class="card-text">Foi muito legal! Gostei muito! Parabéns!</p>
-                <a href="#" class="card-link">Link 1</a>
-                <a href="#" class="card-link">Link 2</a>
-              </div>
-            </div>
-
-          </div>
-
-          <!-- 3o card -->
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card text-white bg-primary mb-3">
-
-              <div class="card-header">Título</div>
-              <div class="card-body">
-                <h5 class="card-title">Depoimento 3</h5>
-                <p class="card-text">Muito bom!</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <!-- 4o card -->
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card border-danger  mb-3">
-              <div class="card-header">Título</div>
-              <div class="card-body text-info">
-                <h5 class="card-title">Subtítulo</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-          </div>       
-
-        </div> <!-- end da div da 1a row -->
-        
-        <!-- 2a row do card-->   
-        <div class="row">
-
-          <!-- 1o card -->
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card bg-dark text-warning mb-3">
-              <img class="card-img" src="imagens/Backfire.png">
-              <div class="card-img-overlay">
-                <h5 class="card-title">Título</h5>
-                <p class="card-text">oiadiasdioau oaisuiaduiasd sdhgfdhgf ijkjkjfdsfjlj sddfjdsfjdslfjskfs lsdfjslfjlsdf  </p>
-                <p class="card-text">Last updated 3 mins ago</p>
-              </div>
-            </div>
-
-          </div>            
-
-          <!-- 2o card -->
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card border-success mb-3">
-              <div class="card-header bg-transparent border-success">Título</div>
-              <div class="card-body text-success">
-                <h5 class="card-title">Subtítulo</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <div class="card-footer bg-transparent border-success">Rodapé</div>
-            </div>
-
-          </div>  
-
-          <!-- 3o card -->
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card mb-3">
-              <img class="card-img-top" src="imagens/Backfire.png" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Título</h5>
-                <p class="card-text">dasdsadsadasdasdefewwrfgfgdfg fsdffs qwewe fgfgfd dffdfgdfgf </p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-
-          </div>            
-
-          <!-- 4o card -->
-          <div class="col-md-3 col-sm-12">
-
-            <div class="card mb-3"> 
-              <h5 class="card-title my-2">Depoimento</h5>
-              <img class="card-img-top" src="assets/img/pessoa-1.jpg">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-          </div>                              
-        
         </div>
-    		<div class="footer">
-				<br>
-   				<b><a href="#top">Voltar ao topo</a></b>
-			</div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br>
+    		<footer>
+            <div class="container">
+              <div class="row">
+                <div class="col-sm">
+                  <br>
+                  <a href="#" style="color:gray"> Voltar  </a>
+                </div> 
+              </div>
+            </div>
+        </footer>
 			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
